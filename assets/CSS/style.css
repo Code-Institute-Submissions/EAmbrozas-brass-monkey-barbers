@@ -127,7 +127,7 @@ i {
 
 #times {
     border: 1px solid whitesmoke;
-    width: 50%;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,6 +137,7 @@ i {
 
 #times table {
     color: whitesmoke;
+    width: 100%;
 }
 
 #times table th {
@@ -158,7 +159,6 @@ i {
 
 /* about content */
 
-
 #about {
     background-color: whitesmoke;
 }
@@ -168,7 +168,7 @@ i {
 }
 
 #about-content {
-    width: 50%;
+    max-width: 600px;
     margin: 50px 0;
 }
 
