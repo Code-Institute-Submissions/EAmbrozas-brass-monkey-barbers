@@ -72,3 +72,46 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#hero-header {
+    color: whitesmoke;
+}
+
+#hero-header h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    max-width: 800px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hero-header p {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#hero-social-links::before,
+#hero-social-links::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+#hero-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+i {
+    color: whitesmoke;
+    font-size: 20px;
+}
