@@ -127,12 +127,12 @@ i {
 
 #times {
     border: 1px solid whitesmoke;
-    width: 550px;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px 0;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 #times table {
@@ -141,7 +141,7 @@ i {
 
 #times table th {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 50px;
     letter-spacing: 5px;
 }
@@ -156,4 +156,32 @@ i {
     text-align: right;
 }
 
+/* about content */
 
+
+#about {
+    background-color: whitesmoke;
+}
+
+#about .flex-container {
+    justify-content: flex-end;
+}
+
+#about-content {
+    width: 50%;
+    margin: 50px 0;
+}
+
+#about-content h2 {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#about h2 {
+    padding-bottom: 50px;
+}
+
+#about p {
+    padding-bottom: 20px;
+}
