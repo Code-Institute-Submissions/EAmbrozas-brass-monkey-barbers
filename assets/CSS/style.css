@@ -23,7 +23,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: black;
 }
 
 header .flex-container {
@@ -49,4 +48,27 @@ a {
 
 #menu li a {
     color: whitesmoke;
+}
+
+/*hero image with main heading*/
+#hero-image {
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/hero-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#hero-background-color {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.900), rgb(0, 0, 0));
+}
+
+#hero-image .flex-container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
