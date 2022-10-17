@@ -115,3 +115,45 @@ i {
     color: whitesmoke;
     font-size: 20px;
 }
+
+/* about opening times section*/
+#opening-times {
+    background-color: black;
+}
+
+#opening-times .flex-container {
+    justify-content: flex-end;
+}
+
+#times {
+    border: 1px solid whitesmoke;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 50px;
+}
+
+#times table {
+    color: whitesmoke;
+}
+
+#times table th {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+#times td {
+    padding: 10px 0;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#times td:nth-child(even) {
+    text-align: right;
+}
+
+
