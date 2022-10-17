@@ -172,6 +172,9 @@ i {
 #about-content {
     max-width: 550px;
     margin: 50px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 50px 0;
 }
 
 #about-content h2 {
@@ -239,6 +242,4 @@ i {
         margin-right:auto;
         
     }
-
-
 }
