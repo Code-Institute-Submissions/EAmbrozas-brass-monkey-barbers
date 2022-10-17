@@ -202,6 +202,43 @@ i {
     z-index: 10;
     top: -344px;
     max-width: 550px;
+}
+
+
+
+
+/* media query */
+@media only screen and (max-width: 1400px) {
+    .flex-container {
+        margin: 0 5vw;
+    }
+
+    #opening-times .flex-container {
+        justify-content: center;
+    }
+
+    #times {
+        margin-bottom: 250px;
+        padding: 50px 20px;
+    }
+
+    #about .flex-container {
+        justify-content: center;
+    }
+
+    #about-content {
+        margin-top: 250px;
+    }
     
-    
+    #about img {
+        height: 400px;
+        top: -200px;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+
 }
