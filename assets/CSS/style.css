@@ -119,6 +119,7 @@ i {
 /* about opening times section*/
 #opening-times {
     background-color: black;
+    position: relative;
 }
 
 #opening-times .flex-container {
@@ -127,7 +128,7 @@ i {
 
 #times {
     border: 1px solid whitesmoke;
-    width: 600px;
+    width: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,8 +160,9 @@ i {
 
 /* about content */
 
-#about {
+#about-main-content {
     background-color: whitesmoke;
+    position: relative;
 }
 
 #about .flex-container {
@@ -168,7 +170,7 @@ i {
 }
 
 #about-content {
-    max-width: 600px;
+    max-width: 550px;
     margin: 50px 0;
 }
 
@@ -184,4 +186,22 @@ i {
 
 #about p {
     padding-bottom: 20px;
+}
+
+/* about image */
+
+#about-image {
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about img {
+    position: absolute;
+    z-index: 10;
+    top: -344px;
+    max-width: 550px;
+    
+    
 }
