@@ -215,6 +215,7 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 #services-background-color {
@@ -294,6 +295,13 @@ i {
         right:0;
         margin-left:auto;
         margin-right:auto;
+    }
 
+    #services-background-color .flex-container {
+        flex-direction: column;
+    }
+
+    .service-card {
+        max-width: 550px;
     }
 }
