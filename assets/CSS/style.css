@@ -221,9 +221,31 @@ i {
 #services-background-color {
     background-color: rgba(0, 0, 0, 0.500);
     height: 500px;
+    padding: 50px 0;
 }
 
+#services-background-color h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+}
 
+.service-card h3,
+.service-card p {
+    color: whitesmoke;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.service-card p {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
 
 /* media query */
 @media only screen and (max-width: 1400px) {
@@ -255,6 +277,6 @@ i {
         right:0;
         margin-left:auto;
         margin-right:auto;
-        
+
     }
 }
