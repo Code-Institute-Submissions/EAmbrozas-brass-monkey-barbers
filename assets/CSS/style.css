@@ -208,6 +208,20 @@ i {
     max-width: 550px;
 }
 
+/* services section */
+#services-background-image {
+    background-color: black;
+    background-image: url('../images/services-background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+#services-background-color {
+    background-color: rgba(0, 0, 0, 0.500);
+    height: 500px;
+}
 
 
 
