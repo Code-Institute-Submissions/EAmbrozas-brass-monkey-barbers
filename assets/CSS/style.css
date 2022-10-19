@@ -27,6 +27,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    background-color: rgba(0, 0, 0, 0.500);
 }
 
 header .flex-container {
@@ -38,6 +39,7 @@ header .flex-container {
 /* header logo and nav links*/
 a {
     text-decoration: none;
+    font-weight: 700;
 }
 
 #logo {
@@ -55,10 +57,31 @@ a {
 }
 
 /* mobile menu */
-#mobile-menu,
+/*#mobile-menu,*/
 #mobile-menu-toggle-button {
     display: none;
 }
+
+#mobile-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#mobile-menu li a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: whitesmoke;
+}
+
+#mobile-menu li a:hover {
+    background-color: whitesmoke;
+    color: black;
+    backdrop-filter: blur(10px);
+}
+
 
 /*hero image with main heading*/
 #hero-image {
