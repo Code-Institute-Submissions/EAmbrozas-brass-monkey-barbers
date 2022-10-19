@@ -347,6 +347,14 @@ max-width: 33%;
     #gallery .flex-container img {
         max-width: 50%;
         }
+    
+    #menu {
+        display: none;
+    }
+
+    #mobile-menu-toggle-button {
+    display: inline-block;
+    }
 }
 
 /* media query for max width 420px */
