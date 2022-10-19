@@ -57,7 +57,7 @@ a {
 }
 
 /* mobile menu */
-/*#mobile-menu,*/
+#mobile-menu,
 #mobile-menu-toggle-button {
     display: none;
 }
