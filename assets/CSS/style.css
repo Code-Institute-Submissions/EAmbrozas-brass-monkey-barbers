@@ -343,9 +343,13 @@ max-width: 33%;
         }
 }
 
-/* media query for max width 400px */
-@media only screen and (max-width: 400px) {
+/* media query for max width 420px */
+@media only screen and (max-width: 420px) {
     #gallery .flex-container img {
         max-width: 100%;
+        }
+
+        #hero-background-color {
+            background-image: none;
         }
 }
