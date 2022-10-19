@@ -269,6 +269,32 @@ i {
     letter-spacing: 2px;
 }
 
+/* gallery */
+#gallery {
+    background-color: black;
+    padding: 50px 5vw;
+}
+
+#gallery .flex-container {
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery .flex-container img {
+max-width: 33%;
+}
+
+#gallery h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 /* media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
     .flex-container {
