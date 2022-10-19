@@ -335,3 +335,17 @@ max-width: 33%;
         max-width: 550px;
     }
 }
+
+/* media query for max width 800px */
+@media only screen and (max-width: 800px) {
+    #gallery .flex-container img {
+        max-width: 50%;
+        }
+}
+
+/* media query for max width 400px */
+@media only screen and (max-width: 400px) {
+    #gallery .flex-container img {
+        max-width: 100%;
+        }
+}
