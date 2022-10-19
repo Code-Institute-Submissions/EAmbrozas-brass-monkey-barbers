@@ -54,6 +54,12 @@ a {
     color: whitesmoke;
 }
 
+/* mobile menu */
+#mobile-menu,
+#mobile-menu-toggle-button {
+    display: none;
+}
+
 /*hero image with main heading*/
 #hero-image {
     background-color: black;
