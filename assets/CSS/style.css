@@ -329,7 +329,7 @@ max-width: 33%;
 /* footer */
 footer {
     background-color: black;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 footer .flex-container {
