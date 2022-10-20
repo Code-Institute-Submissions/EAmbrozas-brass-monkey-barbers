@@ -360,6 +360,15 @@ footer p {
     margin: 0 7.5px;
 }
 
+.fa-google {
+    color: #185C97;
+}
+
+.fa-star {
+    color: gold;
+    font-size: 16px;
+}
+
 /* media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
     .flex-container {
