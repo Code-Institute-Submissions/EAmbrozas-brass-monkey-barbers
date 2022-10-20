@@ -338,8 +338,13 @@ footer .flex-container {
     margin-top: 50px;
 }
 
-footer p, footer address {
+footer p {
     color: whitesmoke;
+    text-align: center;
+}
+
+footer address {
+    color: rgba(245, 245, 245, 0.800);
     text-align: center;
 }
 
@@ -364,6 +369,10 @@ footer p {
     margin: 0 7.5px;
 }
 
+#social-icons a i {
+    color: rgba(245, 245, 245, 0.800);
+}
+
 #google-reviews, #socials, #address {
     max-width: 300px;
 }
@@ -379,7 +388,6 @@ footer p {
     gap: 5px;
     padding: 10px 20px;
     background-color: rgb(27, 27, 27);
-
 }
 
 .fa-google {
