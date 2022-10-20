@@ -414,6 +414,9 @@ footer p {
     font-weight: 100;
     font-size: 16px;
 }
+#copyright p i{
+    font-size: 16px;
+}
 
 /* media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
