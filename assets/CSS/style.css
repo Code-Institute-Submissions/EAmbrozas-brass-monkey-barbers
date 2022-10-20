@@ -364,9 +364,18 @@ footer p {
     max-width: 300px;
 }
 
-#google-reviews .flex-container {
-    justify-content: flex-start;
+#google-reviews p {
+    text-align: center;
+}
+
+#google-reviews-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 5px;
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 27);
+
 }
 
 .fa-google {
