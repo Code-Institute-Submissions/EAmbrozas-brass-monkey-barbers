@@ -32,7 +32,7 @@ header {
 
 header .flex-container {
     height: 80px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -66,13 +66,15 @@ a {
     position: absolute;
     left: 0;
     right: 0;
+    margin-top: 25px;
+    background-color: black;
 }
 
 #mobile-menu li a {
     display: block;
     text-align: center;
     padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: black;
     color: whitesmoke;
 }
 
