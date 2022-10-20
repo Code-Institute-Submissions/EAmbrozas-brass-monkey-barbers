@@ -329,11 +329,13 @@ max-width: 33%;
 /* footer */
 footer {
     background-color: black;
+    padding: 50px 0;
 }
 
 footer .flex-container {
     align-items: flex-start;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 footer p, footer address {
