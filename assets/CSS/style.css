@@ -338,6 +338,7 @@ footer .flex-container {
 
 footer p, footer address {
     color: whitesmoke;
+    text-align: center;
 }
 
 footer p {
@@ -447,10 +448,6 @@ footer p {
         align-items: center;
         justify-content: center;
         gap: 50px;
-    }
-
-    footer address, footer p {
-        text-align: center;
     }
 }
 
