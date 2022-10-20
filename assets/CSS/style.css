@@ -360,6 +360,11 @@ footer p {
     margin: 0 7.5px;
 }
 
+#google-reviews .flex-container {
+    justify-content: flex-start;
+    gap: 5px;
+}
+
 .fa-google {
     color: #185C97;
 }
