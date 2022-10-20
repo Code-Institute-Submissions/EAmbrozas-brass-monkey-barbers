@@ -367,7 +367,7 @@ footer p {
     max-width: 300px;
 }
 
-#google-reviews p {
+#google-reviews > p {
     text-align: center;
 }
 
@@ -387,6 +387,21 @@ footer p {
 
 .fa-star {
     color: gold;
+    font-size: 16px;
+}
+
+#copyright {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #0C0D0D;
+}
+
+#copyright p {
+    margin: 0;
+    font-weight: 100;
     font-size: 16px;
 }
 
