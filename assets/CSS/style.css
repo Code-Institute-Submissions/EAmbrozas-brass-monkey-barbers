@@ -326,6 +326,15 @@ max-width: 33%;
     margin-bottom: 50px;
 }
 
+/* footer */
+footer {
+    background-color: black;
+}
+
+footer .flex-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
 /* media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
     .flex-container {
