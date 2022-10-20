@@ -335,6 +335,31 @@ footer .flex-container {
     align-items: flex-start;
     justify-content: space-between;
 }
+
+footer p, footer address {
+    color: whitesmoke;
+}
+
+footer p {
+    font-size: 22px;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socials p {
+    text-align: center;
+}
+
+#social-icons a {
+    margin: 0 7.5px;
+}
+
 /* media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
     .flex-container {
