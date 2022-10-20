@@ -428,6 +428,17 @@ footer p {
     #mobile-menu-toggle-button {
     display: inline-block;
     }
+
+    footer > .flex-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    footer address, footer p {
+        text-align: center;
+    }
 }
 
 /* media query for max width 420px */
