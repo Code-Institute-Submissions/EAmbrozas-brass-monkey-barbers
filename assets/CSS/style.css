@@ -360,6 +360,10 @@ footer p {
     margin: 0 7.5px;
 }
 
+#google-reviews, #socials, #address {
+    max-width: 300px;
+}
+
 #google-reviews .flex-container {
     justify-content: flex-start;
     gap: 5px;
