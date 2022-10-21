@@ -506,7 +506,7 @@ footer p {
 
     #times table th,
     #about h2,
-    #service-card h3 {
+    .service-card h3 {
         font-size: 20px;
     }
 
