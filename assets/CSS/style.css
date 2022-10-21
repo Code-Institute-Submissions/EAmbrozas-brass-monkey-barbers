@@ -311,6 +311,21 @@ i {
     padding: 50px 5vw;
 }
 
+#gallery p {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    font-weight: 100;
+}
+
+#gallery-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 #gallery .flex-container {
     margin: 0 auto;
     flex-direction: row;
