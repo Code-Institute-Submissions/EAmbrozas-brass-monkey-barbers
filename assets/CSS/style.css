@@ -496,4 +496,19 @@ footer p {
     #hero-background-color {
         background-image: none;
         }
+
+    /* font sizes */
+    #hero-header h2,
+    #services-background-color h2,
+    #gallery h2 {
+        font-size: 26px;
+    }
+
+    #times table th,
+    #about h2,
+    #service-card h3 {
+        font-size: 20px;
+    }
+
+    
 }
