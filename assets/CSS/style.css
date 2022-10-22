@@ -337,7 +337,7 @@ i {
 
 #gallery .flex-container img {
     max-width: 32%;
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(245, 245, 245, 0.200);
 }
 
 #gallery h2 {
@@ -502,7 +502,7 @@ footer p {
     }
 
     .service-card {
-        border: 1px solid whitesmoke;
+        border: 1px solid rgba(245, 245, 245, 0.200);
     }
 
     footer > .flex-container {
