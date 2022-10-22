@@ -332,10 +332,12 @@ i {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 #gallery .flex-container img {
-max-width: 33%;
+    max-width: 32%;
+    border: 1px solid whitesmoke;
 }
 
 #gallery h2 {
@@ -488,7 +490,7 @@ footer p {
 /* media query for max width 800px */
 @media only screen and (max-width: 800px) {
     #gallery .flex-container img {
-        max-width: 50%;
+        max-width: 45%;
         }
     
     #menu {
