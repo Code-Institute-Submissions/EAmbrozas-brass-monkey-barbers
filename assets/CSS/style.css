@@ -395,11 +395,11 @@ i {
 .contact-form {
     margin: 0 auto;
     color: #fff;
-    background-image: url('../images/form-texture.webp'); /* background image used from https://www.pinterest.ie/pin/402368547956054017/ */
-    background-size: 250px;
+    background-color: #0C0D0D;
     max-width: 400px;
     padding: 50px;
     backdrop-filter: blur(8px);
+    border: 1px solid rgba(245, 245, 245, 0.200);
 }
 
 .text-input {
