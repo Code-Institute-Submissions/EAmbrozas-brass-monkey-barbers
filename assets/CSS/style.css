@@ -21,6 +21,14 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    line-height: 2rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
 /* header */
 header {
     position: absolute;
