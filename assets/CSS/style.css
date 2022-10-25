@@ -398,7 +398,6 @@ i {
     background-color: #0C0D0D;
     max-width: 400px;
     padding: 50px;
-    backdrop-filter: blur(8px);
 }
 
 .text-input {
