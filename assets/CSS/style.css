@@ -406,8 +406,16 @@ i {
     font-weight: 100;
 }
 
+.text-input::placeholder {
+    color: rgba(245, 245, 245, 0.800);
+}
+
+textarea::placeholder {
+    color: rgba(245, 245, 245, 0.800);
+}
+
 .text-input:hover {
-    border-color: whitesmoke;
+    border-color: rgba(245, 245, 245, 0.582);
 }
 
 #message {
