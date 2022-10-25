@@ -344,8 +344,19 @@ i {
 }
 
 #gallery .flex-container img {
+    scale: 1.1;
+    max-width: 100%;
+}
+/* image zoom effect */
+.img-hover-zoom {
     max-width: 32%;
+    overflow: hidden;
     border: 1px solid rgba(245, 245, 245, 0.200);
+}
+
+#gallery .flex-container img:hover {
+    transform: scale(1.2);
+    transition: 0.8s ease-out;
 }
 
 #gallery h2 {
@@ -661,7 +672,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 
 /* media query for max width 800px */
 @media only screen and (max-width: 800px) {
-    #gallery .flex-container img {
+    #gallery .flex-container .img-hover-zoom {
         max-width: 45%;
         }
     
@@ -715,7 +726,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 
 /* media query for max width 420px */
 @media only screen and (max-width: 420px) {
-    #gallery .flex-container img {
+    #gallery .flex-container .img-hover-zoom  {
         max-width: 100%;
         }
 
