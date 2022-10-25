@@ -381,7 +381,7 @@ i {
 }
 
 #form {
-    padding:;
+    padding: 0;
 }
 
 .contact-form {
@@ -696,6 +696,10 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     
     #socials {
         align-items: center;
+    }
+
+    #form {
+        padding: 0 5vw;
     }
 }
 
