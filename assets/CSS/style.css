@@ -674,6 +674,30 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
         justify-content: center;
         gap: 50px;
     }
+
+    /* contact section */
+    #contact-background-color {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    #contact-background-color .flex-container {
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-left: 0;
+    }
+    
+    #contact p,
+    #socials p,
+    #google-reviews > p,
+    #contact address {
+        text-align: center;
+    }
+    
+    #socials {
+        align-items: center;
+    }
 }
 
 /* media query for max width 420px */
