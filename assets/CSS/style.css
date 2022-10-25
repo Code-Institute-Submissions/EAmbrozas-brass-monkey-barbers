@@ -167,6 +167,11 @@ i {
     font-size: 30px;
 }
 
+#hero-social-links i:hover,
+#social-icons i:hover {
+    color: whitesmoke;
+}
+
 /* about opening times section*/
 #opening-times {
     background-color: black;
