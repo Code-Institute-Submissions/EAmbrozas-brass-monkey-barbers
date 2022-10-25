@@ -524,13 +524,11 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 /* footer */
 footer {
     background-color: black;
-    padding-top: 50px;
 }
 
 footer .flex-container {
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 50px;
 }
 
 footer p {
