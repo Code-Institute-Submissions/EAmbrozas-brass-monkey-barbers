@@ -585,6 +585,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     gap: 5px;
     padding: 10px 20px;
     background-color: rgb(27, 27, 27);
+    border: 1px solid rgba(245, 245, 245, 0.200);
 }
 
 .fa-google {
