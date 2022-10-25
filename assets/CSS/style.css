@@ -399,7 +399,6 @@ i {
     max-width: 400px;
     padding: 50px;
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(245, 245, 245, 0.200);
 }
 
 .text-input {
@@ -481,7 +480,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     top: -2px;
     left: 0.625rem;
     position: absolute;
-    background: black;
+    background: #0C0D0D;
     transition: width 0.5s ease-out, left 0.3s ease-out;
    }
    
@@ -491,7 +490,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     right: 1.875rem;
     bottom: -2px;
     position: absolute;
-    background: black;
+    background: #0C0D0D;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
@@ -501,7 +500,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     right: 0.625rem;
     bottom: -2px;
     position: absolute;
-    background: black;
+    background: #0C0D0D;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
@@ -529,11 +528,6 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     right: 0;
     width: 0;
    }
-
-.submit-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
 /* button end */
 
 #contact-background-color .flex-container {
