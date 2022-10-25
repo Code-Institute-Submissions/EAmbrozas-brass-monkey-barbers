@@ -361,10 +361,15 @@ i {
 }
 
 #contact-background-color {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    max-width: 1250px;
     background-color: rgba(0, 0, 0, 0.900);
     padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #contact h2 {
@@ -372,11 +377,11 @@ i {
     font-size: 40px;
     letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #form {
-    padding: 0 5vw;
+    padding:;
 }
 
 .contact-form {
@@ -416,12 +421,6 @@ i {
 
 #message:hover {
     border-color: whitesmoke;
-}
-
-label {
-    color: black;
-    font-weight: 700;
-    font-size: 20px;
 }
 
 /* 
@@ -521,41 +520,38 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 }
 /* button end */
 
-/* footer */
-footer {
-    background-color: black;
-}
-
-footer .flex-container {
+#contact-background-color .flex-container {
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    max-width: 400px;
+    height: 465px;
+    margin: 0;
+    padding-left: 15px;
 }
 
-footer p {
+#contact p {
     color: whitesmoke;
-    text-align: center;
-}
-
-footer address {
-    color: rgba(245, 245, 245, 0.800);
-    text-align: center;
-}
-
-footer p {
+    text-align: left;
     font-weight: 700;
     max-width: 400px;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
+#contact address {
+    color: rgba(245, 245, 245, 0.800);
+    text-align: left;
+}
+
 #socials {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #socials p {
-    text-align: center;
+    text-align: left;
 }
 
 #social-icons a {
@@ -592,6 +588,7 @@ footer p {
     font-size: 16px;
 }
 
+/* footer */
 #copyright {
     width: 100%;
     display: flex;
@@ -603,6 +600,7 @@ footer p {
 }
 
 #copyright p {
+    color: whitesmoke;
     margin: 0;
     font-weight: 100;
     font-size: 16px;
