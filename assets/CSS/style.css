@@ -378,17 +378,13 @@ i {
     padding: 0 5vw;
 }
 
-#form {
-    
-}
 .contact-form {
     margin: 0 auto;
     color: #fff;
-    background-image: url('../images/texture.webp');
-    background-size: 200px;
+    background-image: url('../images/form-texture.webp'); /* background image used from https://www.pinterest.ie/pin/402368547956054017/ */
+    background-size: 250px;
     max-width: 400px;
     padding: 50px;
-    border: 1px solid rgba(245, 245, 245, 0.200);
     backdrop-filter: blur(8px);
 }
 
