@@ -42,6 +42,7 @@ header .flex-container {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    max-width: 1400px;
 }
 
 /* header logo and nav links*/
@@ -51,17 +52,23 @@ a {
 }
 
 #logo {
+    margin-left: 20px;
     font-size: 18px;
     color: whitesmoke;
 }
 
 #menu li {
     display: inline;
-    margin-left: 30px;
 }
 
 #menu li a {
     color: whitesmoke;
+    padding: 50px 20px 10px;
+}
+
+#menu li a:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
 /* mobile menu */
@@ -672,6 +679,10 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 
 /* media query for max width 800px */
 @media only screen and (max-width: 800px) {
+    #logo {
+        margin-left: 0;
+    }
+
     #gallery .flex-container .img-hover-zoom {
         max-width: 45%;
         }
