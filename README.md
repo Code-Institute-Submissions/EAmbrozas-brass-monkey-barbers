@@ -1,5 +1,5 @@
 # Brass Monkey Barbers | PORTFOLIO PROJECT 1
-Brass Monkey Barbers is the first Project for Code Institute. The website is designes to be responsive allowing visisitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
+Brass Monkey Barbers is the first Project for Code Institute. The website is designed to be responsive allowing visisitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
 ![alt text](./assets/README/responsive.png)
 [View live website here.](https://eambrozas.github.io/brass-monkey-barbers/)
 
