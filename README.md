@@ -1,108 +1,140 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Brass Monkey Barbers | PORTFOLIO PROJECT 1
+Brass Monkey Barbers is the first Project for Code Institute. The website is designes to be responsive allowing visisitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
+![alt text](./assets/README/responsive.png)
+[View live website here.](https://eambrozas.github.io/brass-monkey-barbers/)
 
-Welcome EAmbrozas,
+## User Experience (UX)
+___
+### User stories
+<ul>
+    <li>First Time Visitors Goals
+        <ul>
+            <li>As a First time visitor, I want to easily understand the main purpose of the site and learn more about the organisation.</li>
+            <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.</li>
+            <li>As a First Time Visitor, I want to be able to check their social media.</li>
+            <li>As a First Time Visitor, I want to have a way to view their reviews to determine how trusted they are.</li>
+        </ul>
+    </li>
+</ul>
+<br>
+<ul>
+    <li>Returning Visitors Goals
+        <ul>
+            <li>As a Returning Visitor, I want to be able to see their work.</li>
+            <li>As a Returning Visitor, I want to be able to see their opening times.</li>
+            <li>As a Returning Visitor, I want to find a way to get in contact with the organisation.</li>
+            <li>As a Returning Visitor, I want to know where is the organisation located.</li>
+        </ul>    
+    </li>
+</ul>
+<br>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Design Features ideas based on the user needs
+>As a First time visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<ul>
+    <li>Hero section will contain the organisations name and ethos with an eye caching background image that relates to the organisation services.</li>
+    <li>About section will have more eye caching image and provide relative information on what the organisation is all about and services they provide.</li>
+</ul>
+<br>
 
-## Gitpod Reminders
+>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<ul>
+    <li>At the top of the page the website will containt a navigation menu with the links provided for each section of the site. On smaller screens the users will be provided with a mobile hamburger menu that will display links for each section on click of the hamburger icon.</li>
+</ul>
+<br>
 
-`python3 -m http.server`
+>As a First Time Visitor, I want to be able to check their social media.
 
-A blue button should appear to click: _Make Public_,
+<ul>
+    <li>Social icon links will be provided at the hero and contact sections.</li>
+</ul>
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+>As a First Time Visitor, I want to have a way to view their reviews to determine how trusted they are.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<ul>
+    <li>The users will be provided with a link to google reviews page of the organisation at the contact section that will open up on a new page.</li>
+    <li>The decision to provide a link to google reviews and not adding a separate section with reviews on the website is the fact that most users are already familiar with google reviews which will add more trust and also will simplify the design of the site.</li>
+</ul>
+<br>
 
-A blue button should appear to click: _Make Public_,
+>As a Returning Visitor, I want to be able to see their work.
 
-Another blue button should appear to click: _Open Browser_.
+<ul>
+    <li>Gallery section will provide the user with images of haircut's that is responsive on all screen sizes and have an eye caching zoom in effect when hovered on to.</li>
+</ul>
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+>As a Returning Visitor, I want to be able to see their opening times.
 
-To log into the Heroku toolbelt CLI:
+<ul>
+    <li>The users will be provided with nicely styled time table of the opening hours of the organisaction.</li>
+</ul>
+<br>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+>As a Returning Visitor, I want to find a way to get in contact with the organisation.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<ul>
+    <li>Contact Section will provide the user with a number of contact options with the main option beeing a form that the user could fill out and secondary will be social links to Facebook and Instagram.</li>
+</ul>
+<br>
 
-------
+>As a Returning Visitor, I want to know where is the organisation located.
 
-## Release History
+<ul>
+    <li>The website will have an imbedded map that the user could zoom in or zoom out on to view organistions location.</li>
+</ul>
+<br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Structure bases on feature ideas
+<ul>
+    <li>Website layout
+    <ul>
+    <li>Home
+        <ul>
+            <li>Navigation menu that is responsive on all devices and screen sizes.</li>
+            <li>Header wight the name of the organisation and its ethos.</li>
+            <li>Social media icon links.</li>
+        </ul>
+    </li>
+    <li>About
+        <ul>
+            <li>Opening times.</li>
+            <li>Convay company ethos.</li>
+            <li>Provide the user with information of services.</li>
+        </ul>
+    </li>
+    <li>Gallery
+            <ul>
+            <li>Add images of haircuts that are responsive on all screen sizes and have an eye ceching zoom in effect when hovered on to.</li>
+        </ul>
+    </li>
+    <li>Contact
+        <ul>
+            <li>Imbedded map</li>
+            <li>Form</li>
+            <li>Add the address of the bussines with links to social media and google reviews.</li>
+        </ul>
+    </li>
+</ul>
+    </li>
+</ul>
+<br>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Design
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Typography
+Roboto Serif font was used on all text elements throughout the page for consistency and complimented well with a classic design look of the website. Serif font was used as a backup if for any reason the main font would not load.
+<br>
+<br>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Colour Scheme
+The two main colours used were whitesmoke and black to give the website a simple, classic look and also giving the highest contrast possible between the background color and text making it easier to read the information provided on the website.
+<br>
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+#### Imagery
+Most images were made by my self for Brass Monkey Barbers
