@@ -137,4 +137,21 @@ The two main colours used were whitesmoke and black to give the website a simple
 <br>
 
 #### Imagery
-Most images were made by my self for Brass Monkey Barbers
+All images were made at Brass Monkey Barbers, presets were added in Adobe Lightroom to give them a classic look to mach the style of the website and then resized in Adobe Photoshop.
+<br>
+<br>
+
+### Wireframes
+![alt text](./assets/README/wireframes.png)
+### Final Design
+![alt text](./assets/README/final-design.png)
+
+## Features
+___
+<ul>
+    <li>The website ir responsive on all devices and screem sizes</li>
+    <li>Interactive elements souch as links, buttons and social media icons.</li>
+    <li>Hamburger menu for mobile devices that display or hide mobile navigation menu on a click.</li>
+    <li>Contact form</li>
+            
+</ul>
