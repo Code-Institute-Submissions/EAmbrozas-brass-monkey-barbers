@@ -1,6 +1,6 @@
 # Brass Monkey Barbers | PORTFOLIO PROJECT 1
 Brass Monkey Barbers is the first Project for Code Institute. The website is designed to be responsive allowing visisitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
-![alt text](./assets/README/responsive.png)
+![Website on different devices](./assets/README/responsive.png)
 [View live website here.](https://eambrozas.github.io/brass-monkey-barbers/)
 
 
@@ -27,6 +27,12 @@ ___
 - [Teschnologies](#technologies)
     - [Languages Used](#languages)
     - [Frameworks, Libraries & Programs Used](#flp)
+- [Testing](#testing)
+    - [Lighthouse](#lighthouse)
+        - [Performance](#performance)
+        - [Accessibility](#accessibility)
+        - [Best Practices](#best-practices)
+        - [SEO](#seo)
 - [Deployment](#deployment)
     - [Project Creation](#project-creation)
     - [Start Project in Gitpod](#start-project)
@@ -307,6 +313,46 @@ ___
 </ul>
 <ul>
     <li><a href="https://www.gitpod.io/">Gitpod</a>
+        <ul>
+            <li>Gitpod text editor was used to develop the website.</li>
+        </ul>
+    </li>
+</ul>
+
+<div id="testing">
+
+## Testing
+___
+</div>
+
+### Lighthouse
+
+![Website on different devices](./assets/README/lighthouse-first-test.png)
+
+<ul>
+    <li id="performance">Performence
+        <ul>
+            <li>Image elements do not have explicit width and height.</li>
+            <li>Serve images in next-gen formats</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li id="accessibility">Accessibility
+        <ul>
+            <li>Gitpod text editor was used to develop the website.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li id="best-practices">Best Practices
+        <ul>
+            <li>Gitpod text editor was used to develop the website.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li id="seo">SEO
         <ul>
             <li>Gitpod text editor was used to develop the website.</li>
         </ul>
