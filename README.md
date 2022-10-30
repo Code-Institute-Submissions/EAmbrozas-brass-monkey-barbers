@@ -34,6 +34,7 @@ ___
     - [GitHub Pages](#github-pages)
     - [Git commands](#git-commands)
 - [Credits](#credits)
+    - [Layout](#layout)
     - [Media](#media)
     - [Content](#content)
     - [Code](#code)
@@ -77,6 +78,7 @@ ___
 ### Features
 </div> 
 <br>
+
 >As a First time visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 <ul>
@@ -162,8 +164,8 @@ ___
     </li>
     <li id="contact">Contact
         <ul>
-            <li>Imbedded map</li>
-            <li>Form</li>
+            <li>Imbedded map.</li>
+            <li>Form.</li>
             <li>Add the address of the bussines with links to social media and google reviews.</li>
         </ul>
     </li>
@@ -215,12 +217,12 @@ ___
 
 
 <ul>
-    <li>The website ir responsive on all devices and screen sizes</li>
+    <li>The website ir responsive on all devices and screen sizes.</li>
     <li>Interactive elements such as links, buttons and social media icons.</li>
     <li>Interactive gallery images that zoom in on mouse hover.</li>
     <li>Hamburger menu for mobile devices that display or hide mobile navigation menu on a click.</li>
-    <li>Embedded map</li>
-    <li>Contact form</li>       
+    <li>Embedded map.</li>
+    <li>Contact form.</li>       
 </ul>
 <br>
 
@@ -335,8 +337,8 @@ ___
 </div>
 
 <ol>
-    <li>Navigate to the Github <a href="https://github.com/EAmbrozas/brass-monkey-barbers">repository</a></li>
-    <li>Clik green 'Gitpod' button</li>
+    <li>Navigate to the Github <a href="https://github.com/EAmbrozas/brass-monkey-barbers">repository</a>.</li>
+    <li>Clik green 'Gitpod' button.</li>
 </ol>
 <br>
 
@@ -365,7 +367,7 @@ ___
 
 <ol>
     <li>
-        Navigate to <a href="https://github.com/EAmbrozas/brass-monkey-barbers">GitHub</a> repository
+        Navigate to <a href="https://github.com/EAmbrozas/brass-monkey-barbers">GitHub</a> repository.
     </li>
     <li>
         Go to Settings > Pages.
@@ -409,9 +411,16 @@ ___
 ___
 </div>
 <ul>
+    <li id="layout">Layout
+        <ul>
+            <li>I was inspired by a barber shop theme on <a href="https://www.etsy.com/ie/listing/1172365331/barbar-barber-house-divi-child-theme?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-paper_and_party_supplies-paper&utm_custom1=_k_Cj0KCQjwwfiaBhC7ARIsAGvcPe7bzFuUjiDoQphhW3sXfchBnmDQt9kpodrC3FhpdfPXkUQElGEW7GwaAlooEALw_wcB_k_&utm_content=go_13703308007_123455828599_530490400750_pla-314261241307_c__1172365331enie_432418375&utm_custom2=13703308007&gclid=Cj0KCQjwwfiaBhC7ARIsAGvcPe7bzFuUjiDoQphhW3sXfchBnmDQt9kpodrC3FhpdfPXkUQElGEW7GwaAlooEALw_wcB">etsy</a>. I redesigned the theme using <a href="https://balsamiq.com/">Balsamiq</a> and <a href="https://www.adobe.com/ie/products/xd.html">Adobe XD</a> to suit Brass Monkey Barbers</li>
+        </ul>
+    </li>
+</ul>
+<ul>
     <li id="media">Media
         <ul>
-            <li>All images were taken by request of Brass Monkey Barbers</li>
+            <li>All images were taken by Ernestas Ambrozas upon request of Brass Monkey Barbers.</li>
         </ul>
     </li>
 </ul>
@@ -419,7 +428,7 @@ ___
 <ul>
     <li id="content">Content
         <ul>
-            <li>The content was created by Ernestas Ambrozas upon the discussion with Denis Healy at Brass Monkey Barbers</li>
+            <li>The content was created by Ernestas Ambrozas upon the discussion with Denis Healy at Brass Monkey Barbers.</li>
         </ul>
     </li>
 </ul>
@@ -435,6 +444,6 @@ ___
 
 ### Acknowledgements
 <ul>
-    <li>A big thanks to my Mentor Ronan for valuable feedback</li>
-    <li>My Cohort lead Kasia for support</li>
+    <li>A big thanks to my Mentor Ronan for valuable feedback.</li>
+    <li>My Cohort lead Kasia for support.</li>
 </ul>
