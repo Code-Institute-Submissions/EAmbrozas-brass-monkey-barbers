@@ -1,3 +1,4 @@
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap');
 
 html {
@@ -8,7 +9,7 @@ body {
     font-family: 'Roboto Serif', serif;
 }
 
-/* basic style reset */
+/* Basic style reset */
 * {
     padding: 0;
     margin: 0;
@@ -29,7 +30,7 @@ p {
     line-height: 1.5rem;
 }
 
-/* header */
+/* Header */
 header {
     position: absolute;
     top: 0;
@@ -45,7 +46,7 @@ header .flex-container {
     max-width: 1400px;
 }
 
-/* header logo and nav links*/
+/* Header logo and nav links*/
 a {
     text-decoration: none;
     font-weight: 700;
@@ -71,7 +72,7 @@ a {
     color: black;
 }
 
-/* mobile menu */
+/* Mobile menu */
 #mobile-menu,
 #mobile-menu-toggle-button {
     display: none;
@@ -100,7 +101,7 @@ a {
 }
 
 
-/*hero image with main heading*/
+/*Hero image with main heading*/
 #hero-image {
     background-color: black;
     width: 100%;
@@ -172,7 +173,7 @@ i {
     color: whitesmoke;
 }
 
-/* about opening times section*/
+/* About opening times section*/
 #opening-times {
     background-color: black;
     position: relative;
@@ -214,8 +215,7 @@ i {
     text-align: right;
 }
 
-/* about content */
-
+/* About content */
 #about-main-content {
     background-color: whitesmoke;
     position: relative;
@@ -252,8 +252,7 @@ i {
     padding-bottom: 20px;
 }
 
-/* about image */
-
+/* About image */
 #about-image {
     position: relative;
     display: flex;
@@ -268,7 +267,7 @@ i {
     max-width: 550px;
 }
 
-/* services section */
+/* Services section */
 #services-background-image {
     background-color: black;
     background-image: url('../images/services-background-image.webp');
@@ -325,7 +324,7 @@ i {
     letter-spacing: 2px;
 }
 
-/* gallery */
+/* Gallery */
 #gallery {
     background-color: black;
     padding: 50px 5vw;
@@ -359,7 +358,8 @@ i {
     display: block;
     max-width: 100%;
 }
-/* image zoom effect */
+
+/* Image zoom effect */
 .img-hover-zoom {
     max-width: 32%;
     overflow: hidden;
@@ -379,14 +379,14 @@ i {
     margin-bottom: 50px;
 }
 
-/* google map */
+/* Google map */
 #map {
     width: 100%;
     height:300px;
     border: none;
 }
 
-/* contact form */
+/* Contact form */
 #contact {
     background-color: black;
 }
@@ -550,7 +550,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     right: 0;
     width: 0;
    }
-/* button end */
+/* Button end */
 
 #contact-background-color .flex-container {
     flex-direction: column;
@@ -621,7 +621,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     font-size: 16px;
 }
 
-/* footer */
+/* Footer */
 #copyright {
     width: 100%;
     display: flex;
@@ -641,7 +641,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     font-size: 16px;
 }
 
-/* media query for max width 1400px */
+/* Media query for max width 1400px */
 @media only screen and (max-width: 1400px) {
     .flex-container {
         margin: 0 5vw;
@@ -682,7 +682,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     }
 }
 
-/* media query for max width 800px */
+/* Media query for max width 800px */
 @media only screen and (max-width: 800px) {
     #logo {
         margin-left: 0;
@@ -711,7 +711,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
         gap: 50px;
     }
 
-    /* contact section */
+    /* Contact section */
     #contact-background-color {
         flex-direction: column;
         padding-bottom: 0;
@@ -730,17 +730,18 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
     #contact address {
         text-align: center;
     }
-    
+    /* Social links */
     #socials {
         align-items: center;
     }
 
+    /* Form */
     #form {
         padding: 0 5vw;
     }
 }
 
-/* media query for max width 420px */
+/* Media query for max width 420px */
 @media only screen and (max-width: 420px) {
     #gallery .flex-container .img-hover-zoom  {
         max-width: 100%;
@@ -750,7 +751,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
         background-image: none;
         }
 
-    /* font sizes */
+    /* Font sizes */
     #hero-header h2,
     #services-background-color h2,
     #gallery h2,
@@ -764,6 +765,7 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
         font-size: 20px;
     }
 
+    /* Form */
     .contact-form {
         max-width: 400px;
         padding: 50px 15px;
