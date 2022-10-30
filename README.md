@@ -29,8 +29,14 @@ ___
     - [Frameworks, Libraries & Programs Used](#flp)
 - [Deployment](#deployment)
     - [Project Creation](#project-creation)
+    - [Start Project in Gitpod](#start-project)
     - [Run Project Live Preview](#live-preview)
-
+    - [GitHub Pages](#github-pages)
+    - [Git commands](#git-commands)
+- [Credits](#credits)
+    - [Media](#media)
+    - [Content](#content)
+    - [Code](#code)
 
 <div id="user-experience">
 
@@ -318,9 +324,20 @@ ___
 
 <ul>
     <li>
-    I used <a href="https://github.com/Code-Institute-Org/gitpod-full-template">Code Institute Template</a> to start the project by clicking on a green 'Use this template' button. I gave it a repository name 'brass-monkey-barbers', checked the Include all branches checkbox and clicked on a green button called 'Create repository from template' to create repository.
+    I used <a href="https://github.com/Code-Institute-Org/gitpod-full-template">Code Institute Template</a> to start the project by clicking on a 'Use this template' button. I gave it a repository name 'brass-monkey-barbers', checked the Include all branches checkbox and clicked on a green button called 'Create repository from template' to create repository.
     </li>
 </ul>
+<br>
+
+<div id="start-project">
+
+### Start Project in Gitpod
+</div>
+
+<ol>
+    <li>Navigate to the Github <a href="https://github.com/EAmbrozas/brass-monkey-barbers">repository</a></li>
+    <li>Clik green 'Gitpod' button</li>
+</ol>
 <br>
 
 <div id="live-preview">
@@ -330,29 +347,94 @@ ___
 
 <ol>
     <li>
-        Open the project in Gitpod
+        Open the project in Gitpod.
     </li>
     <li>
-        Add 'python3 -m http.server' command in terminal
+        Add 'python3 -m http.server' command in terminal.
     </li>
     <li>
-        Click 'open preview' button to view the project with in Gitpod text editor or click 'open browser' button to vew project in browser.
+        Click 'open preview' button to view the project with in Gitpod text editor or click 'open browser' button to view project in browser.
     </li>
 </ol>
 <br>
 
+<div id="github-pages>
+
 ### GitHub Pages
+</div>
 
 <ol>
     <li>
-        Navigate to <a href="https://github.com/EAmbrozas/brass-monkey-barbers">GitHub</a> repository.
+        Navigate to <a href="https://github.com/EAmbrozas/brass-monkey-barbers">GitHub</a> repository
     </li>
     <li>
-        Go to Settings > Pages
+        Go to Settings > Pages.
     </li>
     <li>
-        Click 'open preview' button to view the project with in Gitpod text editor or click 'open browser' button to vew project in browser.
+        Select main branche as the source.
+    </li>
+    <li>
+        Click 'save' button.
+    </li>
+    <li>
+        Click the 'Visit site' button to open up deployed website.
     </li>
 </ol>
 <br>
 
+<div id="git-commands">
+
+### Git commands
+</div>
+
+<ul>
+    <li>
+        git status - displays the state of the working directory and the staging area.
+    </li>
+    <li>
+        git add . - adds a change in the working directory to the staging area.
+    </li>
+    <li>
+        git commit -m "Commit message" - used to save changes to the local repository.
+    </li>
+    <li>
+        git push - upload local repository content to a remote repository.
+    </li>
+</ul>
+<br>
+
+<div id="credits">
+
+## Credits
+___
+</div>
+<ul>
+    <li id="media">Media
+        <ul>
+            <li>All images were taken by request of Brass Monkey Barbers</li>
+        </ul>
+    </li>
+</ul>
+<br>
+<ul>
+    <li id="content">Content
+        <ul>
+            <li>The content was created by Ernestas Ambrozas upon the discussion with Denis Healy at Brass Monkey Barbers</li>
+        </ul>
+    </li>
+</ul>
+<br>
+<ul>
+    <li id="code">Code
+        <ul>
+            <li>I have learned on how to add hamburger menu for mobile navigation links at <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar">w3schools</a>.</li>
+            <li>The form button was taken from <a href="https://uiverse.io/detail/cssbuttons-io/brown-otter-21">universe</a> and slightly changed to mach the website design.</li>
+        </ul>
+    </li>
+</ul>
+
+### Acknowledgements
+<ul>
+    <li>A big thanks to my Mentor Ronan for valuable feedback</li>
+    <li>My Cohort lead Kasia for support</li>
+</ul>
