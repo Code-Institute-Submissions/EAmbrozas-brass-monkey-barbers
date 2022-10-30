@@ -332,7 +332,6 @@ ___
 <ul>
     <li id="performance">Performence
         <ul>
-            <li>Image elements do not have explicit width and height.</li>
             <li>Serve images in next-gen formats</li>
         </ul>
     </li>
@@ -340,7 +339,8 @@ ___
 <ul>
     <li id="accessibility">Accessibility
         <ul>
-            <li>Gitpod text editor was used to develop the website.</li>
+            <li>Add title to iframe</li>
+            <li>Add discernible name to links</li>
         </ul>
     </li>
 </ul>
