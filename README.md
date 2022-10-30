@@ -124,7 +124,7 @@ ___
 >As a Returning Visitor, I want to be able to see their opening times.
 
 <ul>
-    <li>The users will be provided with nicely styled time table of the opening hours of the organisaction.</li>
+    <li>The users will be provided with nicely styled time table of the opening hours of the organisation.</li>
 </ul>
 <br>
 
@@ -138,7 +138,7 @@ ___
 >As a Returning Visitor, I want to know where is the organisation located.
 
 <ul>
-    <li>The website will have an imbedded map that the user could zoom in or zoom out on to view organistions location.</li>
+    <li>The website will have an imbedded map that the user could zoom in or zoom out on to view organisations location.</li>
 </ul>
 <br>
 
@@ -257,7 +257,7 @@ ___
 <ul>
     <li><a href="https://fonts.google.com/">Google Fonts</a>
         <ul>
-            <li>Google fonts were used to import the 'Roboto Serif' font into the style.css file which is used on all pages throughout the project.</li>
+            <li>Google fonts were used to import the 'Roboto Serif' font into the style.css file which is used on all text elements.</li>
         </ul>
     </li>
 </ul>
