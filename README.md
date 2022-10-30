@@ -1,5 +1,5 @@
 # Brass Monkey Barbers | PORTFOLIO PROJECT 1
-Brass Monkey Barbers is the first Project for Code Institute. The website is designed to be responsive allowing visisitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
+Brass Monkey Barbers is the first Project for Code Institute. The website is designed to be responsive, allowing visitors to view and interact with the website on different type and size of devices. The purpose of the website is to add marketing, awareness and relative information about the business to the public, targeting to attract younger generation that loves classic style hair cuts.
 ![Website on different devices](./assets/README/responsive.png)
 [View live website here.](https://eambrozas.github.io/brass-monkey-barbers/)
 
@@ -29,10 +29,9 @@ ___
     - [Frameworks, Libraries & Programs Used](#flp)
 - [Testing](#testing)
     - [Lighthouse](#lighthouse)
-        - [Performance](#performance)
-        - [Accessibility](#accessibility)
-        - [Best Practices](#best-practices)
-        - [SEO](#seo)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Further Testing](#further-testing)
 - [Deployment](#deployment)
     - [Project Creation](#project-creation)
     - [Start Project in Gitpod](#start-project)
@@ -324,11 +323,38 @@ ___
 ## Testing
 ___
 </div>
+<div id="lighthouse">
 
 ### Lighthouse
+</div>
 
 ![Lighthouse test results](./assets/README/lighthouse-test.png)
 
+<div id="html-validation">
+
+### HTML Validation
+</div>
+
+![HTML validation results](./assets/README/html-validation.png)
+
+<div id="css-validation">
+
+### CSS Validation
+</div>
+
+![CSS validation results](./assets/README/css-validation.png)
+
+<div id="further-testing">
+
+### Further Testing
+</div>
+<ul>
+    <li>The Website was tested on Google Chrome, Internet Explorer, Firefox and Safari browsers.</li>
+    <li>The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy s9, Galaxy a13, Galaxy a50s.</li>
+    <li>Every link on the website was testes that it is linked correctly.</li>
+    <li>Every link on the website was testes that it is linked correctly.</li>
+    <li>User Experience issues were tested by friends and family.</li>
+</ul>
 
 <div id="deployment">
 
