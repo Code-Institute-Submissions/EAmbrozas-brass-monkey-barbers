@@ -352,7 +352,6 @@ ___
     <li>The Website was tested on Google Chrome, Internet Explorer, Firefox and Safari browsers.</li>
     <li>The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy s9, Galaxy a13, Galaxy a50s.</li>
     <li>Every link on the website was testes that it is linked correctly.</li>
-    <li>Every link on the website was testes that it is linked correctly.</li>
     <li>User Experience issues were tested by friends and family.</li>
 </ul>
 
