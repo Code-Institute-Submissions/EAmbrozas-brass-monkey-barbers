@@ -327,37 +327,8 @@ ___
 
 ### Lighthouse
 
-![Website on different devices](./assets/README/lighthouse-first-test.png)
+![Lighthouse test results](./assets/README/lighthouse-test.png)
 
-<ul>
-    <li id="performance">Performence
-        <ul>
-            <li>Serve images in next-gen formats</li>
-        </ul>
-    </li>
-</ul>
-<ul>
-    <li id="accessibility">Accessibility
-        <ul>
-            <li>Add title to iframe</li>
-            <li>Add discernible name to links</li>
-        </ul>
-    </li>
-</ul>
-<ul>
-    <li id="best-practices">Best Practices
-        <ul>
-            <li>Gitpod text editor was used to develop the website.</li>
-        </ul>
-    </li>
-</ul>
-<ul>
-    <li id="seo">SEO
-        <ul>
-            <li>Gitpod text editor was used to develop the website.</li>
-        </ul>
-    </li>
-</ul>
 
 <div id="deployment">
 
