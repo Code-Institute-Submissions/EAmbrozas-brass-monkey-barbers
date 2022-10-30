@@ -3,11 +3,48 @@ Brass Monkey Barbers is the first Project for Code Institute. The website is des
 ![alt text](./assets/README/responsive.png)
 [View live website here.](https://eambrozas.github.io/brass-monkey-barbers/)
 
+
+## Table of Contents
+___
+
+- [User Experience (UX)](#user-experience)
+    - [User stories](#user-stories)
+        - [First Time Visitors Goals](#first-time)
+        - [Returning Visitors Goals](#returning)
+    - [Features](#features)
+    - [Structure](#structure)
+        - [Home](#home)
+        - [About](#about)
+        - [Gallery](#gallery)
+        - [Contact](#contact)
+    - [Design](#design)
+        - [Typography](#typography)
+        - [Colour Scheme](#color)
+        - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+    - [Adobe XD Design](#adobe-design)
+- [Features](#features)
+- [Teschnologies](#technologies)
+    - [Languages Used](#languages)
+    - [Frameworks, Libraries & Programs Used](#flp)
+- [Deployment](#deployment)
+    - [Project Creation](#project-creation)
+    - [Run Project Live Preview](#live-preview)
+
+
+<div id="user-experience">
+
 ## User Experience (UX)
 ___
-### User stories
+</div>
+
+<div id="user-stories">
+
+### User Stories
+</div>
+<br>
 <ul>
-    <li>First Time Visitors Goals
+    <li id="first-time">First Time Visitors Goals
         <ul>
             <li>As a First time visitor, I want to easily understand the main purpose of the site and learn more about the organisation.</li>
             <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.</li>
@@ -18,7 +55,7 @@ ___
 </ul>
 <br>
 <ul>
-    <li>Returning Visitors Goals
+    <li id="returning">Returning Visitors Goals
         <ul>
             <li>As a Returning Visitor, I want to be able to see their work.</li>
             <li>As a Returning Visitor, I want to be able to see their opening times.</li>
@@ -29,7 +66,11 @@ ___
 </ul>
 <br>
 
-### Design Features ideas based on the user needs
+<div id="features">
+
+### Features
+</div> 
+<br>
 >As a First time visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 <ul>
@@ -88,30 +129,32 @@ ___
 </ul>
 <br>
 
-### Structure bases on feature ideas
-<ul>
-    <li>Website layout
+<div id="structure">
+
+### Structure
+</div>
+<br>
     <ul>
-    <li>Home
+    <li id="home">Home
         <ul>
             <li>Navigation menu that is responsive on all devices and screen sizes.</li>
             <li>Header wight the name of the organisation and its ethos.</li>
             <li>Social media icon links.</li>
         </ul>
     </li>
-    <li>About
+    <li id="about">About
         <ul>
             <li>Opening times.</li>
             <li>Convay company ethos.</li>
             <li>Provide the user with information of services.</li>
         </ul>
     </li>
-    <li>Gallery
+    <li id="gallery">Gallery
             <ul>
-            <li>Add images of haircuts that are responsive on all screen sizes and have an eye ceching zoom in effect when hovered on to.</li>
+            <li>Add images of haircuts that are responsive on all screen sizes and have an eye catching zoom in effect when hovered on to.</li>
         </ul>
     </li>
-    <li>Contact
+    <li id="contact">Contact
         <ul>
             <li>Imbedded map</li>
             <li>Form</li>
@@ -119,39 +162,197 @@ ___
         </ul>
     </li>
 </ul>
+<br>
+
+<div id="design">
+
+### Design
+</div>
+<br>
+<ul>
+    <li id="typography">Typography
+    <ul>
+        <li>Roboto Serif font is used on all text elements throughout the page complimenting well with a classic design look of the website. Serif is used as a fallback font if for any reason the main font would not load.</li>
+    </ul>
+    </li>
+    <li id="color">Colour Scheme
+    <ul>
+        <li>The two main colours used are whitesmoke and black to give the website a simple, classic look and also giving the highest contrast possible between the background color and text making it easier to read the information provided on the website.</li>
+    </ul>
+    </li>
+    <li id="imagery"> Imagery
+    <ul>
+        <li>Imagery is important. All images in each section of the website are designed to be striking, catch the user's attention and help break up the text on the site improving user experience. Images have been taken for this project at Brass Monkey Barbers. Each image is edited in Adobe Lightroom to give them an older classic look and resized in Adobe Photoshop for a specific section.</li>
+    </ul>
+    </li>
+</ul>
+
+<div id="Wireframes">
+
+### Wireframes
+</div>
+
+![alt text](./assets/README/wireframes.png)
+
+<div id="adobe-design">
+
+### Adobe XD Design
+</div>
+
+![alt text](./assets/README/final-design.png)
+
+<div id="features">
+
+## Features
+___
+</div>
+
+
+<ul>
+    <li>The website ir responsive on all devices and screen sizes</li>
+    <li>Interactive elements such as links, buttons and social media icons.</li>
+    <li>Interactive gallery images that zoom in on mouse hover.</li>
+    <li>Hamburger menu for mobile devices that display or hide mobile navigation menu on a click.</li>
+    <li>Embedded map</li>
+    <li>Contact form</li>       
+</ul>
+<br>
+
+<div id="teschnologies">
+
+## Technologies
+___
+</div>
+
+<div id="languages">
+
+### Languages Used
+</div>
+<br>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML5</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS3</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+</ul>
+<br>
+
+<div id="flp">
+
+### Frameworks, Libraries & Programs Used
+</div>
+<br>
+<ul>
+    <li><a href="https://fonts.google.com/">Google Fonts</a>
+        <ul>
+            <li>Google fonts were used to import the 'Roboto Serif' font into the style.css file which is used on all pages throughout the project.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://fontawesome.com/">Font Awesome</a>
+        <ul>
+            <li>Font Awesome was used for social links in main hero and contact sections.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://git-scm.com/">Git</a>
+        <ul>
+            <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://github.com/">GitHub</a>
+        <ul>
+            <li>GitHub is used to store the projects code after being pushed from Git.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://www.adobe.com/ie/products/photoshop-lightroom.html?gclid=Cj0KCQjwnvOaBhDTARIsAJf8eVOjH4dPSEF5YUvt-cy_GQOAe-YZNeQC-b-f9an8MbE2ZYIu9-4XgyEaAsQaEALw_wcB&mv=search&mv=search&sdid=L7NVTQ8Y&ef_id=Cj0KCQjwnvOaBhDTARIsAJf8eVOjH4dPSEF5YUvt-cy_GQOAe-YZNeQC-b-f9an8MbE2ZYIu9-4XgyEaAsQaEALw_wcB:G:s&s_kwcid=AL!3085!3!547896439650!e!!g!!adobe%20lightroom!1423511177!58810487274">Adobe Lightroom</a>
+        <ul>
+            <li>Adobe Lightroom was used to add color preset for all photos.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://www.adobe.com/ie/products/photoshop.html?gclid=Cj0KCQjwnvOaBhDTARIsAJf8eVO3rRHxJnLt7dFLsz9rBsMrQoVGoDK5svXE0qzu0eMgLEzLGhT-dPgaAofzEALw_wcB&mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjwnvOaBhDTARIsAJf8eVO3rRHxJnLt7dFLsz9rBsMrQoVGoDK5svXE0qzu0eMgLEzLGhT-dPgaAofzEALw_wcB:G:s&s_kwcid=AL!3085!3!441704131147!e!!g!!adobe%20photoshop!1423511192!58810496314">Adobe Photoshop</a>
+        <ul>
+            <li>Adobe Photoshop was used to resize all the images.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://balsamiq.com/">Balsamiq</a>
+        <ul>
+            <li>Balsamiq was used to create the wireframes during the design process.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://www.adobe.com/uk/products/xd.html">Adobe XD</a>
+        <ul>
+            <li>Adobe XD was used to create the prototype of the website.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://www.gitpod.io/">Gitpod</a>
+        <ul>
+            <li>Gitpod text editor was used to develop the website.</li>
+        </ul>
+    </li>
+</ul>
+
+<div id="deployment">
+
+## Deployment
+___
+</div>
+
+<div id="project-creation">
+
+### Project Creation
+</div>
+
+<ul>
+    <li>
+    I used <a href="https://github.com/Code-Institute-Org/gitpod-full-template">Code Institute Template</a> to start the project by clicking on a green 'Use this template' button. I gave it a repository name 'brass-monkey-barbers', checked the Include all branches checkbox and clicked on a green button called 'Create repository from template' to create repository.
     </li>
 </ul>
 <br>
 
-### Design
+<div id="live-preview">
+
+### Run Project Live Preview
+</div>
+
+<ol>
+    <li>
+        Open the project in Gitpod
+    </li>
+    <li>
+        Add 'python3 -m http.server' command in terminal
+    </li>
+    <li>
+        Click 'open preview' button to view the project with in Gitpod text editor or click 'open browser' button to vew project in browser.
+    </li>
+</ol>
 <br>
 
-#### Typography
-Roboto Serif font was used on all text elements throughout the page for consistency and complimented well with a classic design look of the website. Serif font was used as a backup if for any reason the main font would not load.
-<br>
+### GitHub Pages
+
+<ol>
+    <li>
+        Navigate to <a href="https://github.com/EAmbrozas/brass-monkey-barbers">GitHub</a> repository.
+    </li>
+    <li>
+        Go to Settings > Pages
+    </li>
+    <li>
+        Click 'open preview' button to view the project with in Gitpod text editor or click 'open browser' button to vew project in browser.
+    </li>
+</ol>
 <br>
 
-#### Colour Scheme
-The two main colours used were whitesmoke and black to give the website a simple, classic look and also giving the highest contrast possible between the background color and text making it easier to read the information provided on the website.
-<br>
-<br>
-
-#### Imagery
-All images were made at Brass Monkey Barbers, presets were added in Adobe Lightroom to give them a classic look to mach the style of the website and then resized in Adobe Photoshop.
-<br>
-<br>
-
-### Wireframes
-![alt text](./assets/README/wireframes.png)
-### Final Design
-![alt text](./assets/README/final-design.png)
-
-## Features
-___
-<ul>
-    <li>The website ir responsive on all devices and screem sizes</li>
-    <li>Interactive elements souch as links, buttons and social media icons.</li>
-    <li>Hamburger menu for mobile devices that display or hide mobile navigation menu on a click.</li>
-    <li>Contact form</li>
-            
-</ul>
