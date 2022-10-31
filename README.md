@@ -32,6 +32,7 @@ ___
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Further Testing](#further-testing)
+    - [Fixed issues found during testing](#fixed-issues)
 - [Deployment](#deployment)
     - [Project Creation](#project-creation)
     - [Start Project in Gitpod](#start-project)
@@ -353,6 +354,17 @@ ___
     <li>The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy s9, Galaxy a13, Galaxy a50s.</li>
     <li>Every link on the website was testes that it is linked correctly.</li>
     <li>User Experience issues were tested by friends and family.</li>
+</ul>
+
+<div id="fixed-issues">
+
+### Fixed issues found during testing
+</div>
+<ul>
+    <li>Images were of high resolution effecting performance in loading times. This was fixed by compressing the images and changing the format to webp.</li>
+    <li>Gallery images did not take up the full space available in the divs they were placed in resulting in a small gap at the bottom betweet the image and the div. The issue was fixed by adding display block to gallery images.</li>
+    <li>The embedded map was giving errors when checking html validation. This was fixed by removing all styles in html for embedded map.</li>
+    <li>Mobile memu links were very hard to read as there was no background colour set. This was fixed by adding background colour to black for navigation menu and the links when the mobile menu was activated.</li>
 </ul>
 
 <div id="deployment">
