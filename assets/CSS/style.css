@@ -420,7 +420,7 @@ i {
 
 .contact-form {
     margin: 0 auto;
-    color: #fff;
+    color: whitesmoke;
     background-color: #0C0D0D;
     max-width: 400px;
     padding: 50px;
@@ -435,7 +435,6 @@ i {
     border: 1px solid rgba(245, 245, 245, 0.200);
     border-radius: 2px;
     padding: 15px;
-    font-weight: 100;
 }
 
 .text-input::placeholder {
