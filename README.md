@@ -492,6 +492,7 @@ ___
         <ul>
             <li>I have learned on how to add hamburger menu for mobile navigation links at <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar">w3schools</a>.</li>
             <li>The form button was taken from <a href="https://uiverse.io/detail/cssbuttons-io/brown-otter-21">universe</a> and slightly changed to mach the website design.</li>
+            <li>I have used the code for embedded google maps from <a href="https://google-map-generator.com/">Google Map Generator</a> and slightly changed to mach the website design. Also had to remove styling from html file as it was causing to fail the html validation.</li>
         </ul>
     </li>
 </ul>
