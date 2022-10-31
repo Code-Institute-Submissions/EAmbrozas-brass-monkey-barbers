@@ -104,7 +104,6 @@ nav i:hover {
  cursor: pointer;
 }
 
-
 /*Hero image with main heading*/
 #hero-image {
     background-color: black;
@@ -747,6 +746,14 @@ Full link to the button https://uiverse.io/detail/cssbuttons-io/brown-otter-21
 
 /* Media query for max width 420px */
 @media only screen and (max-width: 420px) {
+    #hero-image {
+        background-image: url('../images/mobile-hero-background-image.webp');
+    }
+
+    #services-background-image {
+        background-image: url('../images/mobile-services-background-image.webp');
+    }
+
     #gallery .flex-container .img-hover-zoom  {
         max-width: 100%;
         }
