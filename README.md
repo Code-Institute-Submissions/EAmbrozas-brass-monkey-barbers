@@ -415,7 +415,7 @@ ___
 </ol>
 <br>
 
-<div id="github-pages>
+<div id="github-pages">
 
 ### GitHub Pages
 </div>
@@ -504,4 +504,5 @@ ___
 <ul>
     <li>A big thanks to my Mentor Ronan for valuable feedback.</li>
     <li>My Cohort lead Kasia for support.</li>
+    <li>All the people that invested their time to review and test UI/UX of the project.</li>
 </ul>
