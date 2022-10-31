@@ -133,14 +133,14 @@ ___
 >As a Returning Visitor, I want to find a way to get in contact with the organisation.
 
 <ul>
-    <li>Contact Section will provide the user with a number of contact options with the main option beeing a form that the user could fill out and secondary will be social links to Facebook and Instagram.</li>
+    <li>Contact Section will provide the user with a number of contact options with the main option being a form that the user could fill out and secondary will be social links to Facebook and Instagram.</li>
 </ul>
 <br>
 
 >As a Returning Visitor, I want to know where is the organisation located.
 
 <ul>
-    <li>The website will have an imbedded map that the user could zoom in or zoom out on to view organisations location.</li>
+    <li>The website will have an embedded map that the user could zoom in or zoom out on to view organisations location.</li>
 </ul>
 <br>
 
@@ -153,7 +153,7 @@ ___
     <li id="home">Home
         <ul>
             <li>Navigation menu that is responsive on all devices and screen sizes.</li>
-            <li>Header wight the name of the organisation and its ethos.</li>
+            <li>Header with the name of the organisation and its ethos.</li>
             <li>Social media icon links.</li>
         </ul>
     </li>
@@ -171,7 +171,7 @@ ___
     </li>
     <li id="contact">Contact
         <ul>
-            <li>Imbedded map.</li>
+            <li>Embedded map.</li>
             <li>Form.</li>
             <li>Add the address of the bussines with links to social media and google reviews.</li>
         </ul>
@@ -266,7 +266,7 @@ ___
 <ul>
     <li><a href="https://fontawesome.com/">Font Awesome</a>
         <ul>
-            <li>Font Awesome was used for social links in main hero and contact sections.</li>
+            <li>Font Awesome was used for social links and google review button.</li>
         </ul>
     </li>
 </ul>
@@ -280,7 +280,7 @@ ___
 <ul>
     <li><a href="https://github.com/">GitHub</a>
         <ul>
-            <li>GitHub is used to store the projects code after being pushed from Git.</li>
+            <li>GitHub was used to store the projects code after being pushed from Git.</li>
         </ul>
     </li>
 </ul>
@@ -315,7 +315,14 @@ ___
 <ul>
     <li><a href="https://www.gitpod.io/">Gitpod</a>
         <ul>
-            <li>Gitpod text editor was used to develop the website.</li>
+            <li>Gitpod was used to develop the website.</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li><a href="https://www.gitpod.io/">Google Map Generator</a>
+        <ul>
+            <li>Google Map Generator was used to generate the html for google maps.</li>
         </ul>
     </li>
 </ul>
@@ -492,8 +499,8 @@ ___
     <li id="code">Code
         <ul>
             <li>I have learned on how to add hamburger menu for mobile navigation links at <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar">w3schools</a>.</li>
-            <li>The form button was taken from <a href="https://uiverse.io/detail/cssbuttons-io/brown-otter-21">universe</a> and slightly changed to mach the website design.</li>
-            <li>I have used the code for embedded google maps from <a href="https://google-map-generator.com/">Google Map Generator</a> and slightly changed to mach the website design. Also had to remove styling from html file as it was causing to fail the html validation.</li>
+            <li>The form button was taken from <a href="https://uiverse.io/">universe</a> and slightly changed to mach the website design.</li>
+            <li>I have used the code for embedded google map from <a href="https://google-map-generator.com/">Google Map Generator</a> and slightly changed to mach the website design. Also had to remove styling from html file as it was causing to fail the html validation.</li>
         </ul>
     </li>
 </ul>
