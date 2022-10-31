@@ -44,6 +44,7 @@ ___
     - [Media](#media)
     - [Content](#content)
     - [Code](#code)
+- [Acknowledgements](#acknowledgements)
 
 <div id="user-experience">
 
@@ -496,8 +497,10 @@ ___
         </ul>
     </li>
 </ul>
+<div id="acknowledgements">
 
 ### Acknowledgements
+</div>
 <ul>
     <li>A big thanks to my Mentor Ronan for valuable feedback.</li>
     <li>My Cohort lead Kasia for support.</li>
