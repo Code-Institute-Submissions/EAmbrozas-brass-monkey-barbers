@@ -100,6 +100,10 @@ a {
     backdrop-filter: blur(10px);
 }
 
+nav i:hover {
+ cursor: pointer;
+}
+
 
 /*Hero image with main heading*/
 #hero-image {
